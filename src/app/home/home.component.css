@@ -1,0 +1,36 @@
+/* .container{
+    width:80%;
+    float:right;
+    border:1px solid red;
+    height:100vh;
+    margin:0 auto;
+    padding:0 15px;
+} */
+.banner{
+    background-image: url(https://harnishdesign.net/demo/react/simone/demo/images/intro-bg.jpg);
+    width: 100%;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color:white;
+    align-items: center;
+}
+.banner::after{
+    content:'';
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.6;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+.content{
+    z-index: 999;
+    font-size: 24px;
+}
