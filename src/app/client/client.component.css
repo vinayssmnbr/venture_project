@@ -1,0 +1,48 @@
+h2.title::after{
+    content:'TESTIMONIAL';
+  
+  }
+  section{
+    background-color: #f8f9fa;
+    
+  }
+  .client-content{
+    padding: 48px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  .client-image{
+    margin:0 0 24px;
+  }
+  .client-image img{
+    border-radius: 50%;
+    display: flex;
+  }
+  .client-image{
+    margin: 0 0 0 16px;
+    border: 1px solid red;
+
+  }
+  .client-image p span{
+    color:#6C757D;
+    font-size: 16px;
+  }
+  .client-image strong{
+    color:#212529;
+    font-size: 16px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* margin:40px; */
+    color:red;
+    display:inline-block
+
+  
+  }
+  .client-content p{
+    margin:0 0 24px;
+    font-size: 16px;
+    color: #212529;
+  }
+  .client-content .checked{
+    color:#f1c401;
+  }

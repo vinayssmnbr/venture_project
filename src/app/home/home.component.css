@@ -1,11 +1,4 @@
-/* .container{
-    width:80%;
-    float:right;
-    border:1px solid red;
-    height:100vh;
-    margin:0 auto;
-    padding:0 15px;
-} */
+
 .banner{
     background-image: url(https://harnishdesign.net/demo/react/simone/demo/images/intro-bg.jpg);
     width: 100%;
@@ -33,4 +26,11 @@
 .content{
     z-index: 999;
     font-size: 24px;
+    padding: 72px 0;
+
+
+}
+.content p{
+    font-size: 28px;
+    margin-left: 90px;
 }

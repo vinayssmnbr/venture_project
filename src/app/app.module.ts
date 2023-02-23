@@ -7,6 +7,10 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ServiceComponent } from './service/service.component';
+import { ResumeComponent } from './resume/resume.component';
+import { ClientComponent } from './client/client.component';
+import { TouchComponent } from './touch/touch.component';
+import { CopyrightComponent } from './copyright/copyright.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { ServiceComponent } from './service/service.component';
     HeaderComponent,
     HomeComponent,
     AboutComponent,
-    ServiceComponent
+    ServiceComponent,
+    ResumeComponent,
+    ClientComponent,
+    TouchComponent,
+    CopyrightComponent
   ],
   imports: [
     BrowserModule,
