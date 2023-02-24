@@ -1,5 +1,11 @@
 main{
     width: calc(100% - 260px);
     margin-left: 260PX;
+
+}
+@media (width:767px){
+    main{
+        width:100%;
+    }
 }
 

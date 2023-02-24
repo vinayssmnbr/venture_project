@@ -10,34 +10,36 @@ h2.title::after{
     padding: 48px;
     border-radius: 10px;
     background-color: #fff;
+    
   }
-  .client-image{
+  /* .client-image{
     margin:0 0 24px;
+  } */
+  .client-pic{
+    width:80px;
   }
-  .client-image img{
+  .client-pic img{
     border-radius: 50%;
-    display: flex;
+    
   }
+
   .client-image{
-    margin: 0 0 0 16px;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    margin:0 0 24px;
+
 
   }
   .client-image p span{
     color:#6C757D;
     font-size: 16px;
   }
-  .client-image strong{
+  .client-image p strong{
     color:#212529;
     font-size: 16px;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* margin:40px; */
     color:red;
-    display:inline-block
-
-  
   }
+
   .client-content p{
     margin:0 0 24px;
     font-size: 16px;
