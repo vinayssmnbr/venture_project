@@ -76,8 +76,7 @@ h2.title::after{
 }
 
 
-
-@media(min-width:425px){
+@media(max-width:768px){
   .about-mobile{
     width: 100%;
   
@@ -86,22 +85,24 @@ h2.title::after{
     width:50%;
     
    }
-}
-@media(min-width:375px){
+}   
+
+/* @media(min-width:375px){
   .about-phone{
     width: 100%;
   }
   .about-exp{
     width:50%
   }
-}
-@media(min-width:320px){
+} */
+
+/* @media(min-width:320px){
   .about-phone{
     width: 100%;
   }
   .about-exp{
     width:50%;
   }
-}
+} */
 
 
