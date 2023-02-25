@@ -24,3 +24,13 @@
 .footer-right:hover{
   color:#20c997
 }
+
+/* mobile */
+@media(max-width:425px){
+  .copyright-mobile{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top:20px ;
+  } 
+}

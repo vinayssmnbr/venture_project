@@ -4,7 +4,7 @@ h2.title::after{
   }
 .skill {
     background-color: #ddd;
-    padding: 1%;
+    padding: 4px;
     text-align: right;
     font-size: 20px;
     margin-top: 10px;
@@ -94,4 +94,11 @@ h2.title::after{
   .btn a:hover{
     color:white;
     background-color: #6c757d;
+  }
+
+  /* mobile */
+  @media(max-width:425px){
+    .resume-mobile{
+      width: 100%;
+    }
   }

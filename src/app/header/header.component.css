@@ -6,6 +6,7 @@ header{
     height:100%;
     padding:18px 0;
     overflow-y:scroll;
+    display:block;
    
 }
 img{
@@ -51,4 +52,14 @@ nav{
   .social{
     text-align: center;
     margin-top: 40px;
+  }
+
+  @media only screen and (max-width:768px){
+    header{
+        display:none;
+    }
+   /* .banner-tab{
+    width: 100%;
+   } */
+
   }

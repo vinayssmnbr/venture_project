@@ -64,3 +64,51 @@ h2.title::after{
   .social li i{
     color:#252b33
   }
+
+  /* mobile */
+  @media(max-width:425px){
+    .contact-mobile{
+    width:100%;
+    }
+    .about .container>.row{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    
+    .contact-address h2{
+      margin: 50px 0 16px;
+      color:#252b33;
+      font-size: 21px;
+      text-align: center;
+    }
+    .contact-address .floor{
+      margin:0 0 24px;
+      font-size: 16px;
+      color:#4c4d4d;
+      text-align: center;
+
+    }
+    .contact-address span{
+      color: #20C997;
+      margin: 0 0 4px;
+      text-align: center;
+
+      
+    }
+    .contact-address p{
+      margin: 0 0 4px;
+      text-align: center;
+
+    }
+    .contact-address .follow{
+      margin: 24px 0 16px 0;
+      text-align: center;
+
+    }
+    ul.social{
+      text-align: center;
+    }
+    .contact-mobile h2{
+      text-align: center;
+    }
+  }

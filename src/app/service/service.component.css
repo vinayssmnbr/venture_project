@@ -38,3 +38,8 @@ h2.title::after{
     color:#20C997;
     font-size: 30px;
   }
+  @media(max-width:425px){
+    .service-tab{
+      width: 100%;
+    }
+  }
